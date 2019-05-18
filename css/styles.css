@@ -76,6 +76,10 @@ section {
   margin-top: 1.6rem;
 }
 
+.desktop-image {
+  display: none;
+}
+
 .email-form {
   display: flex;
   flex-direction: column;
@@ -132,3 +136,43 @@ section {
 }
 
 /* Desktop Media Query */
+
+@media (min-width: 1440px) {
+  h1 {
+    display: none;
+  }
+
+  h3 {
+    font-size: 6.4rem;
+  }
+
+  section {
+    margin-bottom: 16rem;
+  }
+
+  .button-link {
+    font-size: 3.2rem;
+  }
+
+  .container {
+    max-width: 1110px;
+  }
+
+  .date-buy-tickets {
+    display: flex;
+  }
+
+  .logo-wrapper {
+
+  }
+
+  .desktop-image {
+    display: inline-block;
+  }
+
+  .trailer-section iframe {
+    width: 1110px;
+    height: 624px;
+  }
+
+}
